@@ -1,0 +1,23 @@
+{
+  "name": "twitch-lurk",
+  "version": "1.0.0",
+  "description": "Twitch lurk bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-deprecation index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hackebein/docker-twitch-lurk.git"
+  },
+  "author": "Lars \"Hackebein\" Olzem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hackebein/docker-twitch-lurk/issues"
+  },
+  "homepage": "https://github.com/Hackebein/docker-twitch-lurk#readme",
+  "dependencies": {
+    "tmi.js": "^1.5.0"
+  }
+}
